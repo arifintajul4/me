@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply font-bold text-2xl;
+    }
+    h2 {
+        @apply font-bold text-xl;
+    }
+
+    h3 {
+        @apply font-bold text-base;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply rounded w-full uppercase py-2;
+    }
+    .btn-blue {
+        @apply font-bold bg-blue-600 dark:bg-green-700 text-white;
+    }
+}
