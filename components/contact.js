@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div
             className="pb-5"
-            style={{ height: "70vh", overflowX: "auto", overflowX: "hidden" }}
+            style={{ overflowX: "auto", overflowX: "hidden" }}
         >
             <form className="px-2 mb-10">
                 <div className="mb-4">

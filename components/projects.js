@@ -37,12 +37,6 @@ export default function Projects() {
                 github: "",
             },
             {
-                imageUrl: "./img/projects/panggilin.PNG",
-                title: "Panggilin",
-                url: "https://panggilin.com/",
-                github: "",
-            },
-            {
                 imageUrl: "./img/projects/reservasi-wisma.PNG",
                 title: "Reservasi Wisma App",
                 url: "",
