@@ -21,6 +21,7 @@ export default function Skills() {
         framework: [
             { imageUrl: "./img/skills/ci.png", title: "codeigniter" },
             { imageUrl: "./img/skills/laravel.png", title: "laravel" },
+            { imageUrl: "./img/skills/jquery.png", title: "jquery" },
             { imageUrl: "./img/skills/react.png", title: "reactjs" },
             { imageUrl: "./img/skills/next.png", title: "nextjs" },
             { imageUrl: "./img/skills/bootstrap.png", title: "bootstrap" },
