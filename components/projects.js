@@ -38,7 +38,13 @@ export default function Projects() {
             },
             {
                 imageUrl: "./img/projects/reservasi-wisma.PNG",
-                title: "Reservasi Wisma App",
+                title: "Reservasi Wisma Online",
+                url: "",
+                github: "",
+            },
+            {
+                imageUrl: "./img/projects/ra.PNG",
+                title: "Ra Ibadurrahman Web",
                 url: "",
                 github: "",
             },
