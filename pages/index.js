@@ -9,7 +9,7 @@ export default function App() {
     const [isShow, setIsShow] = useState(false);
 
     return (
-        <div className="bg-blue-300 dark:bg-gray-800 h-screen pt-14 pb-10">
+        <div className="bg-blue-300 dark:bg-gray-800 h-screen flex justify-center items-center">
             <div className="container">
                 <div className=" grid grid-cols-1 md:grid-cols-3 md:gap-2">
                     <Sidebar
