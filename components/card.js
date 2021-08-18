@@ -15,8 +15,8 @@ export default function Card({ imageUrl, title, url = "", github = "" }) {
                     <button
                         className={`flex items-center ${
                             url == ""
-                                ? "text-gray-500 dark:text-gray-300"
-                                : "text-blue-500 dark:text-gray-500"
+                                ? "text-gray-500 dark:text-gray-500"
+                                : "text-blue-500 dark:text-gray-300"
                         }`}
                         disabled={url == "" ? true : false}
                     >
@@ -32,8 +32,8 @@ export default function Card({ imageUrl, title, url = "", github = "" }) {
                     <button
                         className={`flex items-center ${
                             github == ""
-                                ? "text-gray-500 dark:text-gray-300"
-                                : "text-blue-500 dark:text-gray-500"
+                                ? "text-gray-500 dark:text-gray-500"
+                                : "text-blue-500 dark:text-gray-300"
                         }`}
                         disabled={github == "" ? true : false}
                     >
