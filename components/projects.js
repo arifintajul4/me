@@ -48,6 +48,12 @@ export default function Projects() {
                 url: "",
                 github: "",
             },
+            {
+                imageUrl: "./img/projects/app-gis.PNG",
+                title: "App GIS",
+                url: "",
+                github: "",
+            },
         ],
     };
     return (
