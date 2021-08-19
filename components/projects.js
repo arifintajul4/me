@@ -64,7 +64,7 @@ export default function Projects() {
             <h3 className="mb-3 text-gray-500 dark:text-gray-300 font-medium">
                 [{projectList.public.length}] Public
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-2">
                 {projectList.public.map((el, idx) => {
                     return (
                         <Card
@@ -80,7 +80,7 @@ export default function Projects() {
             <h3 className="mb-3 text-gray-500 dark:text-gray-300 mt-5 font-medium">
                 [{projectList.private.length}] Private
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-2">
                 {projectList.private.map((el, idx) => {
                     return (
                         <Card
