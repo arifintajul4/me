@@ -39,8 +39,8 @@ export default function Skills() {
 
     return (
         <div
-            className="pb-5"
-            style={{ height: "70vh", overflowX: "auto", overflowX: "hidden" }}
+            className="pb-5 overflow-x-hidden overflow-y-auto"
+            style={{ height: "70vh" }}
         >
             <h3 className="mb-3 text-gray-500 dark:text-gray-300">
                 [{skillList.programing.length}] Programming Languages

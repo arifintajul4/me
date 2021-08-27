@@ -2,11 +2,19 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { SRLWrapper } from "simple-react-lightbox";
 
-export default function Card({ imageUrl, title, url = "", github = "" }) {
+export default function Card({ imageUrl, title, url = "", github = "", desc }) {
     return (
         <div className="hover:shadow-lg bg-white dark:bg-gray-800 shadow-xl rounded d-flex overflow-hidden">
-            <img src={imageUrl} className="w-full" alt={title} />
+            <SRLWrapper>
+                <img
+                    src={imageUrl}
+                    className="w-full"
+                    alt={desc}
+                    className="cursor-pointer"
+                />
+            </SRLWrapper>
             <h3 className="font-bold text-md py-2 px-4 text-gray-800 dark:text-white">
                 {title}
             </h3>

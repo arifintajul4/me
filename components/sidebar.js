@@ -41,7 +41,7 @@ export default function Sidebar({
                 <h1 className="text-xl font-bold text-center">
                     Tajul Arifin Sirajudin
                 </h1>
-                <p>Full Stack Web Developer</p>
+                <p>Web Developer</p>
                 <div className="text-center mt-5 w-full py-2 border-t-2">
                     <ul>
                         <li>
